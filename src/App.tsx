@@ -1,6 +1,6 @@
 import { makeStyles } from '@material-ui/core';
-import Navbar from './components/Navbar';
-import Leftbar from './components/Leftbar';
+
+import Allbar from './components/Allbar';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -11,8 +11,8 @@ const useStyles = makeStyles((theme) => ({
 const App = () => {
   const classes = useStyles();
   return <div>
-    <Navbar />
-    <Leftbar/>
+    <Allbar />
+    
   </div>
 
 
